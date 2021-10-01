@@ -64,7 +64,6 @@ router.post("/get-order", async (req, res) => {
  res.json(foundObject)
 });
 
-// https://www.youtube.com/watch?v=JGwWNGJdvx8
 
 // Remove Order
 router.post("/remove-order", async (req, res) => {
